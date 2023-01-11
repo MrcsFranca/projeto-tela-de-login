@@ -10,12 +10,13 @@ Grandes Telas: acima de 1200
 */
 
 @media screen and (min-width: 769px) and (max-width: 992px) {
-  body {
+  body { /*TABLET*/
     background-image: linear-gradient(to top, #49a09d, #5f2c82);
   }
 
   #login {
     width: 80vw;
+    height: 260px;
   }
 
   #imagem {
@@ -31,12 +32,13 @@ Grandes Telas: acima de 1200
 }
 
 @media screen and (min-width: 993px) and (max-width: 1200px) {
-  body {
+  body { /*DESKTOP*/
     background-image: linear-gradient(to top, #49a09d, #5f2c82);
   }
 
   #login {
     width: 80vw;
+    height: 297px;
   }
 
   #imagem {
@@ -56,12 +58,13 @@ Grandes Telas: acima de 1200
 }
 
 @media screen and (min-width: 1201px) {
-  body {
+  body { /*TELAS GRANDES*/
     background-image: linear-gradient(to top, #49a09d, #5f2c82);
   }
 
   #login {
     width: 60vw;
+    height: 310px;
   }
 
   #imagem {
@@ -80,6 +83,6 @@ Grandes Telas: acima de 1200
   }
 
   #formulario > p {
-    font-size: 1.2em;
+    font-size: 1.1em;
   }
 }
